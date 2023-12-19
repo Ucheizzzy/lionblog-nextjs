@@ -7,12 +7,12 @@
   position: relative;
   cursor: pointer;
   border-radius: 50px;
-  background-color: #000;
+  /* background-color: #000; */
 }
 .ball {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   position: absolute;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
