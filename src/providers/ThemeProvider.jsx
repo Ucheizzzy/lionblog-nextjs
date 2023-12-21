@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 
 export default function ThemeProvider({ children }) {
   const { theme } = useThemeContext()
+  //check if the component is mounted or not
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
